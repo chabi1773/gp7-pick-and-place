@@ -1,0 +1,37 @@
+{
+  "status": "passed: numerical and static package checks; runtime not tested",
+  "source_inertial_links": 7,
+  "simulated_revolute_joints": 6,
+  "gazebo_root": "world",
+  "total_source_mass_kg": 20.27507,
+  "inertia_checks": [
+    "positive definiteness",
+    "principal moment triangle inequalities",
+    "principal moments reproduced within report rounding",
+    "parallel-axis theorem against source origin tensors within COM/mass rounding bounds",
+    "COM/tensor frame transformations consistent with mesh transforms"
+  ],
+  "deployment_checks": [
+    "URDF XML",
+    "world SDF XML",
+    "package XML",
+    "Python syntax",
+    "controller joint/interface matching",
+    "all mesh and controller paths exist after relocation",
+    "seven positive-size primitive collisions"
+  ],
+  "not_tested": [
+    "Gazebo URDF-to-SDF runtime conversion",
+    "plugin loading",
+    "controller activation",
+    "trajectory execution",
+    "contacts and simulation stability"
+  ],
+  "caveats": [
+    "all source CAD densities approximately 1 g/cm^3",
+    "mesh frame alignment estimated",
+    "coarse collision envelopes; self-collision disabled",
+    "position servo is not calibrated motor dynamics"
+  ],
+  "scope": "Original arm physics; see pick_place_validation.json for the added scene."
+}

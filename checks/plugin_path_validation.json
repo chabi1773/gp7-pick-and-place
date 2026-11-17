@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "checks": [
+    "absolute library path resolved using mocked ROS package prefix",
+    "missing library produces direct diagnostic",
+    "generated plugin filename matches full path",
+    "six control joints unchanged",
+    "portable URDF and supplied inertias unchanged"
+  ],
+  "limitation": "Path resolution tested using a temporary placeholder file. No real plugin loading or Gazebo execution performed."
+}

@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.8)
+project(gp7_stl_description)
+find_package(ament_cmake REQUIRED)
+install(DIRECTORY urdf meshes launch rviz reference checks scripts config worlds DESTINATION share/${PROJECT_NAME})
+install(FILES README.md PICK_PLACE.md DESTINATION share/${PROJECT_NAME})
+install(PROGRAMS scripts/pick_place.py DESTINATION lib/${PROJECT_NAME})
+ament_package()

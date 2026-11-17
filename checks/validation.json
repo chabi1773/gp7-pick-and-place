@@ -1,0 +1,119 @@
+{
+  "status": "structural and offline geometry checks passed",
+  "links": 10,
+  "revolute_joints": 6,
+  "fixed_joints": 3,
+  "mesh_count": 7,
+  "zero_tool0_xyz_m": [
+    0.5599999999999999,
+    0.0,
+    0.8150000000000001
+  ],
+  "random_fk_configurations_checked": 100,
+  "mesh_bounds_after_visual_transform": {
+    "base_link": {
+      "minimum_m": [
+        -0.1373329620361388,
+        -0.100000488281328,
+        -1.9021681560950035e-06
+      ],
+      "maximum_m": [
+        0.10000000000000518,
+        0.09954003143305651,
+        0.2120000000003699
+      ],
+      "triangles": 133614
+    },
+    "link_1": {
+      "minimum_m": [
+        -0.09699949646060238,
+        -0.08300000762949211,
+        -0.1398999938967666
+      ],
+      "maximum_m": [
+        0.1007788658142014,
+        0.08300000762910038,
+        0.06079862213134766
+      ],
+      "triangles": 61430
+    },
+    "link_2": {
+      "minimum_m": [
+        -0.08500012207031447,
+        -0.11500000000000615,
+        -0.06399999618528515
+      ],
+      "maximum_m": [
+        0.06400000000001778,
+        0.11500000000009497,
+        0.49796994018556656
+      ],
+      "triangles": 87688
+    },
+    "link_3": {
+      "minimum_m": [
+        -0.10500000762939453,
+        -0.075,
+        -0.05463546371459961
+      ],
+      "maximum_m": [
+        0.079,
+        0.07200000000000001,
+        0.10200057983398438
+      ],
+      "triangles": 62394
+    },
+    "link_4": {
+      "minimum_m": [
+        -0.36848508199022656,
+        -0.05500062561040011,
+        -0.050558563232421874
+      ],
+      "maximum_m": [
+        0.03601491800977344,
+        0.05499962997441378,
+        0.050558563232421874
+      ],
+      "triangles": 71518
+    },
+    "link_5": {
+      "minimum_m": [
+        -0.03800000000006855,
+        -0.03299999999972824,
+        -0.03908254241945849
+      ],
+      "maximum_m": [
+        0.07600000000023892,
+        0.03300000000027176,
+        0.0370764732360807
+      ],
+      "triangles": 14772
+    },
+    "link_6": {
+      "minimum_m": [
+        0.0675,
+        -0.03,
+        -0.03
+      ],
+      "maximum_m": [
+        0.08,
+        0.03,
+        0.03
+      ],
+      "triangles": 2430
+    }
+  },
+  "not_tested": [
+    "ROS 2 launch execution",
+    "RViz runtime rendering",
+    "Gazebo physics",
+    "physical CAD joint-frame accuracy"
+  ],
+  "limitations": [
+    "STL units inferred as millimetres",
+    "mesh frames estimated from upstream geometry",
+    "source CAD density is approximately 1 g/cm^3",
+    "Gazebo controller configuration is not runtime-tested"
+  ],
+  "scope": "Portable arm URDF; the simulation gripper is added by pick_place_scene.py."
+}

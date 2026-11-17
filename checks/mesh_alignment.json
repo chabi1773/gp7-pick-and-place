@@ -1,0 +1,240 @@
+[
+  {
+    "source_file": "base_link.STL",
+    "urdf_link": "base_link",
+    "scale": 0.001,
+    "rotation_matrix": [
+      [
+        -1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0
+      ]
+    ],
+    "visual_origin_xyz_m": [
+      0,
+      0,
+      0
+    ],
+    "visual_origin_rpy_rad": [
+      1.5707963267948966,
+      0.0,
+      3.141592653589793
+    ],
+    "status": "estimated from registration to upstream GP7 visual mesh, snapped to orthogonal rotations",
+    "sha256": "2a9ed3c0abddb7e6a0ebadcb6daa2ba6e860090aa8f523ae437b528e5941721d"
+  },
+  {
+    "source_file": "link_1.STL",
+    "urdf_link": "link_1",
+    "scale": 0.001,
+    "rotation_matrix": [
+      [
+        0,
+        0,
+        -1
+      ],
+      [
+        -1,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0
+      ]
+    ],
+    "visual_origin_xyz_m": [
+      0.04,
+      0.0,
+      0.0
+    ],
+    "visual_origin_rpy_rad": [
+      1.5707963267948966,
+      0.0,
+      -1.5707963267948966
+    ],
+    "status": "estimated from registration to upstream GP7 visual mesh, snapped to orthogonal rotations",
+    "sha256": "d959d592d168b6bd38da94cded2ec95c9bbc10fb1d1080e56adfa35202275cde"
+  },
+  {
+    "source_file": "link_2.STL",
+    "urdf_link": "link_2",
+    "scale": 0.001,
+    "rotation_matrix": [
+      [
+        -1,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        -1
+      ]
+    ],
+    "visual_origin_xyz_m": [
+      0,
+      0,
+      0
+    ],
+    "visual_origin_rpy_rad": [
+      3.141592653589793,
+      0.0,
+      3.141592653589793
+    ],
+    "status": "estimated from registration to upstream GP7 visual mesh, snapped to orthogonal rotations",
+    "sha256": "62d69fdbfc0c579fd63a8f186668972fc1e91cc8135ad96c2ca1f1a6aa904024"
+  },
+  {
+    "source_file": "link_03.STL",
+    "urdf_link": "link_3",
+    "scale": 0.001,
+    "rotation_matrix": [
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "visual_origin_xyz_m": [
+      0,
+      0,
+      0
+    ],
+    "visual_origin_rpy_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "status": "estimated from registration to upstream GP7 visual mesh, snapped to orthogonal rotations",
+    "sha256": "c23358829a4f77967bc74746d50b5cee68751e8d6c33503ba004eba0603e13c4"
+  },
+  {
+    "source_file": "link_04.STL",
+    "urdf_link": "link_4",
+    "scale": 0.001,
+    "rotation_matrix": [
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        -1
+      ],
+      [
+        0,
+        1,
+        0
+      ]
+    ],
+    "visual_origin_xyz_m": [
+      -0.119333333333,
+      0.0,
+      0.0
+    ],
+    "visual_origin_rpy_rad": [
+      1.5707963267948966,
+      0.0,
+      0.0
+    ],
+    "status": "estimated from registration to upstream GP7 visual mesh, snapped to orthogonal rotations",
+    "sha256": "1550a40e1edc3166f40b1095ab063055aa759d3f5ccb9f8fc1de3ab3c29548ff"
+  },
+  {
+    "source_file": "link_05.STL",
+    "urdf_link": "link_5",
+    "scale": 0.001,
+    "rotation_matrix": [
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        0
+      ]
+    ],
+    "visual_origin_xyz_m": [
+      0,
+      0,
+      0
+    ],
+    "visual_origin_rpy_rad": [
+      -1.5707963267948966,
+      -1.5707963267948966,
+      0.0
+    ],
+    "status": "estimated from registration to upstream GP7 visual mesh, snapped to orthogonal rotations",
+    "sha256": "403e39c42e524d39b48e779b49bb42cdd30be64194511c77f697fc5a5fc5f73d"
+  },
+  {
+    "source_file": "link_06.STL",
+    "urdf_link": "link_6",
+    "scale": 0.001,
+    "rotation_matrix": [
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        -1,
+        0
+      ],
+      [
+        0,
+        0,
+        -1
+      ]
+    ],
+    "visual_origin_xyz_m": [
+      0.065,
+      0.0,
+      0.0
+    ],
+    "visual_origin_rpy_rad": [
+      3.141592653589793,
+      0.0,
+      0.0
+    ],
+    "status": "estimated from registration to upstream GP7 visual mesh, snapped to orthogonal rotations",
+    "sha256": "0393212e9993eab1c0aede2710d58121ed758c06dc277f9bebf25f5d6c0ae500"
+  }
+]

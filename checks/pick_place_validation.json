@@ -1,0 +1,34 @@
+{
+  "status": "offline checks passed; Gazebo/ROS execution not tested here",
+  "box_a_bottom_center_m": [
+    0.5,
+    0.5,
+    0
+  ],
+  "box_b_initial_center_m": [
+    0.4300076373283734,
+    -0.23027861990304244,
+    0.025
+  ],
+  "checked_interpolated_configurations": 5000,
+  "max_planned_tool_orientation_error_degrees": 1.762486118724255e-08,
+  "max_joint_speed_rad_s": 0.355068568016126,
+  "max_joint_acceleration_rad_s2": 0.15570732628276127,
+  "min_moving_robot_floor_clearance_m": 0.05099994236004257,
+  "total_motion_seconds": 50,
+  "final_joint_positions_rad": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    -0.0,
+    -0.0
+  ],
+  "limitations": [
+    "Self-collision disabled, not checked.",
+    "Coarse link bounding boxes, not precise contact geometry.",
+    "Numerical IK with quintic Cartesian timing; not an analytical IK derivation.",
+    "Ideal attachment joint, not a physical suction/friction model.",
+    "Trajectory checks do not prove dynamic tracking accuracy."
+  ]
+}

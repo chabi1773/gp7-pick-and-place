@@ -1,0 +1,10 @@
+{
+  "version": "0.3.2",
+  "method": "offline mocked ROS control-flow tests",
+  "passed": [
+    "startup detach before first trajectory with initially unknown state",
+    "startup detach before first trajectory with initially attached state",
+    "no arm motion when detach acknowledgement is absent"
+  ],
+  "not_tested": "Gazebo runtime execution"
+}
